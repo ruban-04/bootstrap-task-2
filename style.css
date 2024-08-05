@@ -16,3 +16,33 @@ body{
 .home-btn:hover{
     color:black !important;
 }
+.lead1{
+    color: #0061f2;
+    background-color: #dae7fb;
+    font-size: 12px;
+    width: 5.5% !important;
+    font-weight:500;
+    border-radius: 10px;
+    padding: 3px 14px;
+    margin: 0px 0px 16px;
+}
+.content{
+    text-align: center;
+    font-size: 17.6px;
+    color:#69707a;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.image-fluid{
+  max-width: 100%;
+    height: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+   
+}
+.img-title{
+    text-align: center !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+    color: #363d47;
+}
