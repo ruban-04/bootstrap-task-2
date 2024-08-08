@@ -7,12 +7,21 @@ body{
     
     font-size: 19px;
     font-weight: bold;
-    padding-left: 70px;
+    padding-left: 35px;
+}
+.collapse{
+    justify-content: end !important;
+}
+#navbarDropdown{
+    font-weight: 500 !important; 
+    padding-right: 32px !important;
 }
 .home-btn{
     font-weight: 500 !important;
 }
-
+#navbarDropdown:hover{
+    color:black !important;
+}
 .home-btn:hover{
     color:black !important;
 }
@@ -34,7 +43,9 @@ body{
     margin-left: 20px;
 }
 .photo-content{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .image-content{
     width: 90%;
@@ -43,6 +54,7 @@ body{
     padding-right: 0px !important;
     border-radius: 10px !important;
    cursor: pointer;
+   align-self: center;
  
   
 }
@@ -64,7 +76,7 @@ body{
    padding-left: px !important;
 }
 .list-group{
-    box-shadow: 6px 6px 6px 6px rgb(233, 230, 230);
+    /* box-shadow: 6px 6px 6px 6px rgb(233, 230, 230); */
 }
 .list{
     font-size: 14px !important;
@@ -96,5 +108,70 @@ background-color: #eceff3;
 #icon{
     font-size: 20px;
     color: #a7aeb8;
-  
+}
+.font{
+    font-size: 12px ;
+    font-weight: bold;
+    color: #a7aeb8;
+}
+.font1{
+    font-size: 14px;
+    color: #a7aeb8;
+
+}
+
+@media only screen and (min-width:1023px) and (max-width:1439px){
+
+    #startnav{
+    
+        padding-left:36px !important;
+    }
+
+    .percentage{
+        font-size: 72.08px !important;
+    }
+    .head-line{
+        width: 46% !important;
+        line-height: 45px !important;
+    }
+    .sub-line{
+        line-height: 30px !important;
+    }
+    .number-list{
+        padding-left: 62px !important;
+    }
+    .list-target{
+        width:96.3333333%;
+    }
+    .lead1{
+        width: 8% !important;
+        align-items: center !important;
+    }
+    .lead3{
+        width: 10.07% !important;
+    }
+    #navbarDropdown{
+        font-weight: 500 !important; 
+        padding-right: 20pxpx !important;
+    }
+}
+@media only screen and (min-width:767px) and (max-width:1022px){
+    .image-content{
+        width: 80% !important;
+    }
+    .nav-image{
+        display: none !important;
+    }
+    .head-line{
+        margin-top: 86px !important;
+        width: 77% !important;
+        line-height: 50px !important;
+    }
+    .sub-line{
+        line-height: 30px !important;
+    }
+    .navbar-toggler{
+        border: none !important;
+        padding-left: 30px !important;
+    }
 }
