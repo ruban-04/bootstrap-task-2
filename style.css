@@ -40,7 +40,7 @@ body{
     font-size: 17.6px;
     color:#69707a;
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .photo-content{
     display: flex;
@@ -156,6 +156,9 @@ background-color: #eceff3;
     }
 }
 @media only screen and (min-width:767px) and (max-width:1022px){
+    #startnav{
+        padding-left: 37px !important;
+    }
     .image-content{
         width: 80% !important;
     }
@@ -164,7 +167,7 @@ background-color: #eceff3;
     }
     .head-line{
         margin-top: 86px !important;
-        width: 77% !important;
+        width: 97% !important;
         line-height: 50px !important;
     }
     .sub-line{
@@ -172,6 +175,56 @@ background-color: #eceff3;
     }
     .navbar-toggler{
         border: none !important;
-        padding-left: 30px !important;
+        margin-right: 30px !important;
     }
+    .navbar-collapse{
+        padding-left: 60px !important;
+        line-height: 3 !important;
+    }
+    .list-tables{
+        padding-left: 37px !important;
+    }
+    .lead1{
+        width: 10.5% !important;
+    }
+    .lead3{
+        width: 14.5% !important;
+    }
+  
+}
+@media only screen and (min-width:424px) and (max-width:766px){
+
+    .nav-image{
+        display: none !important;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+        margin-right: 25px !important;
+    }
+
+    .navbar-collapse{
+        padding-left: 60px !important;
+        line-height: 3 !important;
+    }
+
+    #card{
+        margin-left: 0px !important
+   }
+   .home-btn{
+    margin-left: -12px !important;
+
+   }
+   .navbar-collapse{
+    padding-left: 31px !important;
+    line-height: 3 !important;
+}
+.head-line{
+    margin-top: 86px !important;
+    width: 100% !important;
+    line-height: 46px !important;
+}
+.sub-line{
+    line-height: 30px !important;
+}
 }
